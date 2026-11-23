@@ -2,6 +2,8 @@
 
 A monthly MIS report and interactive dashboard, built **entirely in Excel**, for an Indian ethnic-wear seller on Amazon.in. 128,975 order lines, 31 Mar to 29 Jun 2022.
 
+![Dashboard](dashboard.png)
+
 ## Business questions
 1. How much did we sell each month, and is it growing?
 2. How many orders get cancelled or returned, and does it depend on who ships the order?
@@ -49,12 +51,3 @@ A monthly MIS report and interactive dashboard, built **entirely in Excel**, for
 
 ## How to use
 Open `Amazon_India_Sales_MIS.xlsx`, go to **Dashboard**, and pick a period in the yellow cell C5.
-
-**Tip:** take a screenshot of the Dashboard in Excel and add it here as `dashboard.png`. Recruiters look at the picture first.
-
-## Optional: add a Pivot Table (5 minutes, good to show in interviews)
-1. Go to the **Data** sheet, click any cell, press **Ctrl + T** to make it a Table.
-2. **Insert > PivotTable > New Worksheet**.
-3. Rows: *Clean State*. Columns: *Status Group*. Values: *Amount (₹)* (Sum) and *Order ID* (Count).
-4. **PivotTable Analyze > Insert Slicer >** *Category* and *Fulfilment*.
-5. Check that the Shipped total matches the Dashboard (₹6,95,69,110 for Apr–Jun, plus any 31 March lines).
