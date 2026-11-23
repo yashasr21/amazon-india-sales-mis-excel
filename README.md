@@ -1,5 +1,5 @@
 # Amazon India Fashion Sales: MIS Report & Dashboard (Excel)
-
+![Dashboard](dashboard.png)
 A monthly MIS report and interactive dashboard, built **entirely in Excel**, for an Indian ethnic-wear seller on Amazon.in. 128,975 order lines, 31 Mar to 29 Jun 2022.
 
 ## Business questions
